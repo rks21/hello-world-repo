@@ -1,9 +1,7 @@
 name: Hello World
-on: 
-  push
-
+on: push
 jobs:
-  name: hello-jb
-  runs-on: ubuntu-latest
-  steps:
-    run: echo "Hello World"
+  hello-job:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo "Hello World"
